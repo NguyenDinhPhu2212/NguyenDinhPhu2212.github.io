@@ -1,0 +1,149 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+  color: rgb(53, 51, 51) !important;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 10px 2px rgba(0, 0, 0, 0.1), 0px 24px 20px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  width: 100vw;
+}
+
+/* search */
+
+#form > .form-control:focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+#signInMenu {
+  display: inline-block;
+}
+#form input {
+  min-width: 400px !important;
+}
+@media only screen and (max-width: 600px) {
+    #form {
+      margin-bottom: 10px;
+    }
+  }
+/* sign in */
+
+.fa-user-circle {
+  font-size: 40px;
+}
+
+#signOut {
+  margin-right: 50px !important;
+}
+
+.dropdown-menu {
+  min-width: 100px !important;
+}
+
+/* filter */
+
+.filter {
+  margin: 30px 0;
+}
+
+/* cart img */
+
+.card-img-top {
+  width: 240px !important;
+  height: 240px !important;
+  object-fit: contain !important;
+}
+
+/* brands */
+
+.brands {
+  cursor: pointer;
+  width: 140px;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+.brands:hover {
+  transform: scale(1.1);
+}
+
+/* cart */
+
+#cart {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#cart .fa-opencart {
+  position: relative;
+  color: rgb(255, 17, 0);
+  font-size: 40px !important;
+}
+
+.cartImg {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.fs8 {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.badge {
+  position: absolute;
+  color: rgb(255, 17, 0);
+  top: 30%;
+  left: 15%;
+  font-size: 13px !important;
+}
+
+/* cart img */
+
+.card-img-top {
+  width: 240px !important;
+  height: 240px !important;
+  object-fit: contain !important;
+}
+
+/* filter */
+
+.componentIcon div {
+  font-size: 80px;
+  background-color: rgb(245, 244, 244);
+  color: rgb(59, 59, 59);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 158px !important;
+  height: 158px !important;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.componentIcon div p {
+  font-size: 15px !important;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.componentIcon div:hover {
+  border: 2px solid rgb(202, 202, 202);
+  transition: 0.12s;
+}
+.filterRS {
+  border: 1px solid rgb(201, 201, 201);
+  margin: 0 10px 10px 10px;
+  padding-top: 5px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+}
+
+.home {
+    font-weight: bold;
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(53, 51, 51) !important;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15), 0px 10px 2px rgba(0, 0, 0, 0.1), 0px 24px 20px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.sign-in {
+    height: 100vh;
+    width: 100vw;
+}
+
+#formContain .title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: rgb(86, 159, 255);
+    text-align: center;
+}
+#formContain{
+    padding: 60px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 20px;
+}
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+form button {
+    background-color: rgb(86, 159, 255) !important;
+    color: white !important;
+}
+
+form button:hover {
+    background-color: rgb(59, 144, 255) !important;
+}
+
+form button:focus {
+    box-shadow: none !important;
+    background-color: rgb(59, 144, 255) !important;
+}

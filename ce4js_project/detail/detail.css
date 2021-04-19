@@ -1,0 +1,142 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+  color: rgb(53, 51, 51) !important;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 10px 2px rgba(0, 0, 0, 0.1), 0px 24px 20px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  width: 100vw;
+}
+
+/* search */
+
+#form > .form-control:focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+#signInMenu {
+  display: inline-block;
+}
+#form input {
+  min-width: 400px !important;
+}
+@media only screen and (max-width: 600px) {
+    #form {
+      margin-bottom: 10px;
+    }
+  }
+/* sign in */
+
+.fa-user-circle {
+  font-size: 40px;
+}
+
+#signOut {
+  margin-right: 50px !important;
+}
+
+.dropdown-menu {
+  min-width: 100px !important;
+}
+
+/* cart */
+
+#cart {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+#cart .fa-opencart {
+  position: relative;
+  color: rgb(255, 17, 0);
+  font-size: 40px !important;
+}
+
+.cartImg {
+  width: 100px;
+  height: 100px;
+  object-fit: contain !important;
+}
+
+.fs8 {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.badge {
+  position: absolute;
+  color: rgb(255, 17, 0);
+  top: 30%;
+  left: 15%;
+  font-size: 13px !important;
+}
+
+/* container */
+
+.container {
+  margin-top: 50px !important;
+}
+
+.container h2 {
+  margin-bottom: 30px;
+}
+
+.container > div {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* slider */
+
+#card-slider {
+  width: 420px !important;
+  float: left;
+}
+
+.splide__slide img {
+  width: 380px;
+  height: 380px;
+  margin-left: 20px;
+  object-fit: contain !important;
+}
+
+.splide__arrow {
+  opacity: 0.2;
+  font-size: 20px !important;
+}
+
+.splide__slide {
+  height: 420px;
+  width: 420px !important;
+}
+
+#rightSide {
+  margin-left: 50px !important;
+  min-width: 500px !important;
+}
+
+#rightSide > ul > li {
+  margin-top: 8px;
+  color: rgb(87, 86, 86);
+  font-size: 14px;
+}
+
+#addIntoCart {
+  display: block;
+  line-height: 40px;
+  background-color: red;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#addIntoCart i {
+  font-size: 25px;
+}
