@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
     <!-- JavaScript Bundle with Popper -->
-    
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
@@ -97,7 +97,9 @@
               aria-label="Search"
               name="search"
             />
-            <button class="btn" type="submit"><i class="fal fa-search" style="font-size: 20px;"></i></button>
+            <button class="btn" type="submit">
+              <i class="fal fa-search" style="font-size: 20px"></i>
+            </button>
           </form>
           <a id="cart" href="./pay/pay.html" class="me-4"
             ><i class="fab fa-opencart"><span class="badge">0</span></i> Giỏ
@@ -210,12 +212,12 @@
       </div>
     </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
-   https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
 
     <script>
       // Your web app's Firebase configuration
@@ -226,8 +228,8 @@
         projectId: "ce4js-dataresource",
         storageBucket: "ce4js-dataresource.appspot.com",
         messagingSenderId: "176693163260",
-        appId: "1:176693163260:web:845a4b20e722b7318fd379",
-        measurementId: "G-CPVL0SHWBZ",
+        appId: "1:176693163260:web:52087a75a78ef29a8fd379",
+        measurementId: "G-QSF9CBVEF2",
       };
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
@@ -237,6 +239,7 @@
         timestampInSnapshots: true,
       });
     </script>
+
     <script src="./index.js"></script>
   </body>
 </html>
